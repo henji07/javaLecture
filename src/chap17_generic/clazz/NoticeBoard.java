@@ -5,7 +5,6 @@ public class NoticeBoard {
 	private String nBoardTitle;
 	private String nBoardContent;
 	
-	
 	public int getnBoardNo() {
 		return nBoardNo;
 	}
@@ -24,14 +23,9 @@ public class NoticeBoard {
 	public void setnBoardContent(String nBoardContent) {
 		this.nBoardContent = nBoardContent;
 	}
-	
-	
 	@Override
 	public String toString() {
 		return "NoticeBoard [nBoardNo=" + nBoardNo + ", nBoardTitle=" + nBoardTitle + ", nBoardContent=" + nBoardContent
 				+ "]";
 	}
-	
-	
-	
 }

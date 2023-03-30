@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudyGroup<T> {
-	private List<T> groupList = new ArrayList<T>();
+	private List<T> groupList = 
+						new ArrayList<T>();
 
-	
 	public List<T> getGroupList() {
 		return groupList;
 	}
@@ -15,18 +15,15 @@ public class StudyGroup<T> {
 		this.groupList = groupList;
 	}
 	
-	//생성자
-	public StudyGroup() {
-		this.groupList = groupLIst;
-	}
-	
-	//메소드
 	public List<String> getCap() {
+		List<String> capList = 
+					new ArrayList<String>();
 		
-
-	}
-
-	public List<String> getMembers() {
+		for(int i = 0; i < groupList.size(); i++) {
+			Group g = (Group)groupList.get(i);
+			capList.add(g.getCaptin());
+		}
 		
+		return capList;
 	}
 }

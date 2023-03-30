@@ -5,8 +5,6 @@ public class FreeBoard {
 	private String fBoardTitle;
 	private String fBoardContent;
 	
-	
-	//getter / setter
 	public int getfBoardNo() {
 		return fBoardNo;
 	}
@@ -26,13 +24,9 @@ public class FreeBoard {
 		this.fBoardContent = fBoardContent;
 	}
 	
-	
 	@Override
 	public String toString() {
 		return "FreeBoard [fBoardNo=" + fBoardNo + ", fBoardTitle=" + fBoardTitle + ", fBoardContent=" + fBoardContent
 				+ "]";
 	}
-	
-	
-
 }

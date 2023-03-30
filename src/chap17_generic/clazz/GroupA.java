@@ -2,9 +2,11 @@ package chap17_generic.clazz;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class GroupA implements Group {
-	private Map<String, String> memMap = new HashMap<String, String>();
+	private Map<String, String> memMap =
+				new HashMap<String, String>();
 	
 	public GroupA() {
 		this.memMap.put("전두하", "조장");
@@ -19,5 +21,18 @@ public class GroupA implements Group {
 
 	public void setMemMap(Map<String, String> memMap) {
 		this.memMap = memMap;
+	}
+	
+	public String getCaptin() {
+		String name = "";
+		
+		for(Entry<String, String> ent : 
+			this.memMap.entrySet()) {
+			if(ent.getValue().equals("조장")) {
+				name = ent.getKey();
+			}
+		}
+		
+		return name;
 	}
 }
