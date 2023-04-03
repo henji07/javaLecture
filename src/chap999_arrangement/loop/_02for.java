@@ -1,4 +1,4 @@
-package chap999_arrangement.forstatement;
+package chap999_arrangement.loop;
 
 public class _02for {
 

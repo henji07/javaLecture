@@ -1,4 +1,4 @@
-package chap999_arrangement.forstatement;
+package chap999_arrangement.loop;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class _03for {
 			//약수의 개수 세는 변수
 			int cnt = 0; //cnt가 0이면 소수라고 생각
 			//소수 판별을 위한 변수 
-			for(int j = 2; j <= i / 2; j++) {
+			for(int j = 2; j <= i; j++) {
 				//나눠서 떨어지는지 검사 
 				if(j % j == 0 && i != j) {
 					cnt++; //소수가 아니면 카운트 올라가는 거

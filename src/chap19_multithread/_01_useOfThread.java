@@ -5,7 +5,8 @@ public class _01_useOfThread {
 	public static void main(String[] args) {
 		// 1. 스레드의 정의 
 		//메인함수를 실행하면 스레드가 자동적으로 하나 만들어짐
-		//그 돌아가는 스레드가 메인 스레드 뭔소린지 잘 모르겠음 
+		//그 돌아가는 스레드가 메인 스레드 
+		
 		//메인 메소드 안에서 정의한 스레드가 서브 스레드 
 		Thread thread = new Thread(new Runnable() {
 			@Override
