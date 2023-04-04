@@ -15,6 +15,7 @@ public class _07variables {
 			f *= i;
 		}
 		System.out.println(input + "! = " + f);
+		
+		sc.close();
 	}
-
 }

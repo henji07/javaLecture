@@ -24,7 +24,6 @@ public class _07controll {
 				System.out.println("잘못 입력하셨어요 ^^");
 				break;
 		}
-
+		sc.close();
 	}
-
 }

@@ -35,6 +35,7 @@ public class _01_useOfThread {
 		
 		//t1.start(); 스레드 여러 개 만든 후 한번에 실행하면 멀티 스레드
 		
+		//메인 스레드 
 		for(int i = 6; i <= 10; i++) {
 			System.out.println(i);
 			

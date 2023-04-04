@@ -39,6 +39,9 @@ public class _08variables {
 			}
 		} 
 		
-		System.out.println("입력한 10개의 정수 중 소수 개수 : " + count);
+		System.out.println("입력한 10개의 정수 중 소수 개수 : " 
+							+ count);
+		
+		sc.close();
 	}
 }

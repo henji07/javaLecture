@@ -19,9 +19,6 @@ public class _06operator {
 		
 		System.out.println(result);
 		
-	
-		
-
+		sc.close();
 	}
-
 }

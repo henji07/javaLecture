@@ -19,7 +19,8 @@ public class _06casting {
 		
 		System.out.println(a + " 유니코드 : " +uniA);
 		System.out.println(b + " 유니코드 : " + uniB);
+		
+		sc.close();
 	
 	}
-
 }

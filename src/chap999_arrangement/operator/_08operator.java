@@ -21,5 +21,4 @@ public class _08operator {
 		
 		sc.close();
 	}
-
 }

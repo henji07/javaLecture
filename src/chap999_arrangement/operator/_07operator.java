@@ -27,7 +27,6 @@ public class _07operator {
 		double rem = num1 % num2;
 		System.out.println(num1 + " % " + num2 + " = " + rem);
 		
-
+		sc.close();
 	}
-
 }

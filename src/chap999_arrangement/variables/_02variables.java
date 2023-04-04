@@ -38,9 +38,10 @@ public class _02variables {
 						result = num1 / num2;
 						break;
 				}
-				System.out.println(num1 + " " +  op + " " + num2 + " = " + result);
+				System.out.println(num1 + " " +  op + " " + num2 + 
+									" = " + result);
+				sc2.close();
 			}
-
 	}
 
 

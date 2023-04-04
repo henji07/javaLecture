@@ -12,7 +12,6 @@ public class PrintNumWithSync {
 		this.setNum(num);
 		for(int i = 1; i <= this.num; i++) {
 			System.out.println(i);
-			
 			try {
 				Thread.sleep(300);
 			} catch(InterruptedException ie) {

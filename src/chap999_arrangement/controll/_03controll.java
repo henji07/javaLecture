@@ -23,6 +23,6 @@ public class _03controll {
 				System.out.println("다른 언어를 공부해보세요~");
 				break;
 		}
-
+		sc.close();
 	}
 }

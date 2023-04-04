@@ -20,6 +20,7 @@ public class _01casting {
 		
 		System.out.println("두 정수의 합: " + sum);
 
+		sc.close();
 	}
-
+	
 }

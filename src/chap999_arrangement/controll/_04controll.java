@@ -20,8 +20,6 @@ public class _04controll {
 				System.out.println("3의 배수가 아니여라");
 				break;
 		}
-
-
+		sc.close();
 	}
-
 }

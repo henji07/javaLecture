@@ -20,7 +20,6 @@ public class _04variables {
 		
 		System.out.println("합계 : " + sum + ", 평균 : " + avg);
 		
-
+		sc.close();
 	}
-
 }

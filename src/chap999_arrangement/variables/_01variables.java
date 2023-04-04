@@ -19,5 +19,6 @@ public class _01variables {
 		System.out.println("이름 : " + name + ", 나이 : " + 
 							age + ", 성별 : " + gender);
 		
+		sc.close();
 	}
 }

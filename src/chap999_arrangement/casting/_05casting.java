@@ -17,5 +17,4 @@ public class _05casting {
 		System.out.println("iNum = " + iNum + " lNum = " + lNum);	
 
 	}
-
 }

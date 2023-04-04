@@ -13,7 +13,6 @@ public class _06variables {
 			for (int j = 1; j <= 9; j++) {
 				System.out.println(input + " x " + j + " = " + (input*j));
 			}
-		
+		sc.close();
 	}
-
 }

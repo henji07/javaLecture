@@ -16,8 +16,6 @@ public class _04operator {
 		} else {
 			System.out.println("입력한 문자열은 \"구만짱짱\"이 아니여요.");
 		}
-		
-
+		sc.close();
 	}
-
 }

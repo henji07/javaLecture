@@ -22,5 +22,4 @@ public class _06controll {
 		System.out.println("가장 큰 수 : " + max);
 		sc.close();
 	}
-
 }

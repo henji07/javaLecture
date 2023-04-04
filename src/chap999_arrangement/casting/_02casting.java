@@ -21,8 +21,6 @@ public class _02casting {
 			System.out.println("0으로 나눌 수 없어여~");
 		}
 		
-		
-
+		sc.close();
 	}
-
 }

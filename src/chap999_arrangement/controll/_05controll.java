@@ -19,7 +19,6 @@ public class _05controll {
 		} else {
 			System.out.println("홀수");
 		}
-
+		sc.close();
 	}
-
 }

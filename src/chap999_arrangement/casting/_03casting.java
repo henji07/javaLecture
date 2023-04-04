@@ -13,6 +13,6 @@ public class _03casting {
 		
 		System.out.println((int)a);
 
+		sc.close();
 	}
-
 }

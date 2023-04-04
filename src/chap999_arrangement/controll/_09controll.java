@@ -34,6 +34,6 @@ public class _09controll {
 					System.out.println("짝수 : " + count2 + "개" + 
 										", 홀수 : " + count1 + "개");
 				}
+				sc.close();
 	}
-
 }

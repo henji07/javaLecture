@@ -17,7 +17,6 @@ public class _03operator {
 		} else {
 			System.out.println("2와 7의 공배수가 아님 ");
 		}
-
+		sc.close();
 	}
-
 }

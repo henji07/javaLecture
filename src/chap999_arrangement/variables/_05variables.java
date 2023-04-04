@@ -20,8 +20,6 @@ public class _05variables {
 		System.out.println("중간값 : " + mid);
 		System.out.println("최대값 : " + max);
 		
-		
-
+		sc.close();
 	}
-
 }

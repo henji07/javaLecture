@@ -17,7 +17,7 @@ public class _01controll {
 		} else {
 			System.out.println(num2);
 		}
-
+		
+		sc.close();
 	}
-
 }

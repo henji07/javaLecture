@@ -18,7 +18,6 @@ public class _02controll {
 		} else {
 			System.out.println("음수");
 		}
-			
+		sc.close();	
 	}
-
 }

@@ -21,7 +21,6 @@ public class _08controll {
 		} else {
 			System.out.println("두 수가 같습니다.");
 		}
-		
+		sc.close();
 	}
-
 }

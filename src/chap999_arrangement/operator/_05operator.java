@@ -17,8 +17,6 @@ public class _05operator {
 		} else {
 		System.out.println(input % 2 == 0? "짝수" : "홀수");
 		}
-		
-
+		sc.close();
 	}
-
 }

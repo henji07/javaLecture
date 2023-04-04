@@ -21,6 +21,6 @@ public class _04casting {
 		System.out.println("String으로 변환됐는가여?");
 		System.out.println(s instanceof String);
 
+		sc.close();
 	}
-
 }

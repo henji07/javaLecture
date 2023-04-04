@@ -1,6 +1,7 @@
 package chap19_multithread.clazz.exam04;
 
 public class PrintNumWithWaitNotify {
+	
 	private int num;
 
 	public void setNum(int num) {
@@ -9,6 +10,7 @@ public class PrintNumWithWaitNotify {
 	
 	//동기화 메소드
 	public synchronized void printNum1(int num) {
+		
 		this.setNum(num);
 		
 		for(int i = 1; i <= this.num; i++) {
