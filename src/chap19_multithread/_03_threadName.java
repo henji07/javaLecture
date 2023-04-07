@@ -3,7 +3,7 @@ package chap19_multithread;
 public class _03_threadName {
 
 	public static void main(String[] args) {
-		// 
+		// 스레드가 어떻게 동작하는지 보려고 for문 사용한 거 
 		Thread thread1 = Thread.currentThread();
 		System.out.println(thread1.getName() + "동작중");
 		
